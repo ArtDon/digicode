@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "allowJs": true,
+
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["DOM", "es5", "es6", "es7"],
+
+        /* Additional Checks */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "moduleResolution": "node",
+
+        /* Experimental Options */
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+
+    },
+    "include": ["src"],
+    "exclude": [
+        "node_modules",
+        ".history"
+    ]
+}

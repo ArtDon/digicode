@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test for DigiCode</title>
+</head>
+<body>
+<div class="root" id='root'>
+    <div class="counters">
+        <div class="counters__item">
+            <span>Number of current shapes</span>: <span id="countShapes"></span>        </div>
+        <div class="counters__item">
+            <span>Surface area occupied by shapes</span>: <span id="shapesArea"></span>
+        </div>
+    </div>
+    <div class="content">
+        <div id="container"></div>
+    </div>
+    <div class="ui">
+        <div class="ui__group">
+            <div class="btn">
+                <div class="btn__item" id="countShapeDec">-</div>
+                <div class="btn__item" id="countShapeInc">+</div>
+            </div>
+            <label class="ui_value">
+                <span>Shapes per/sec: </span>
+                <strong id="countShapeValue"></strong>
+            </label>
+        </div>
+        <div class="ui__group">
+            <div class="btn">
+                <div class="btn__item" id="countGravityDec">-</div>
+                <div class="btn__item" id="countGravityInc">+</div>
+            </div>
+            <label class="ui_value">
+                <span>Gravity value: </span>
+                <strong id="countGravityValue"></strong>
+            </label>
+        </div>
+    </div>
+</div>
+</body>
+</html>

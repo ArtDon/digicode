@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.content {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    outline: 1px solid #000000;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+
+}
+
+.counters {
+    display: flex;
+}
+
+.counters__item {
+    flex-direction: column;
+    padding: 5px;
+    outline: 1px solid #000000;
+}
+
+.ui {
+    display: flex;
+}
+
+.ui__group {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.ui_value {
+    padding: 10px;
+    margin: 5px 10px;
+    outline: 1px solid #000000;
+}
+
+.btn {
+    display: flex;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn__item {
+    outline: 1px solid #000000;
+    flex-direction: column;
+    padding: 5px 20px;
+    cursor: pointer;
+    user-select: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 24px;
+}
